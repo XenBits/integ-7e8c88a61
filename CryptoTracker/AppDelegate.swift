@@ -2,4 +2,4 @@
 //  AppDelegate.swift
 //  CryptoTracker
 //
-//  Created 
+//  Created by David on
