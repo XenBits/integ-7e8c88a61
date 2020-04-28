@@ -7,3 +7,5 @@
 
 import Cocoa
 import SwiftUI
+
+class AppD
