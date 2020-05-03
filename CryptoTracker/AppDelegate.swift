@@ -8,4 +8,5 @@
 import Cocoa
 import SwiftUI
 
-class AppDelegate: NSObject, NSApplicationDel
+class AppDelegate: NSObject, NSApplicationDelegate {
+  
