@@ -9,4 +9,5 @@ import Cocoa
 import SwiftUI
 
 class AppDelegate: NSObject, NSApplicationDelegate {
-  
+    
+    var 
