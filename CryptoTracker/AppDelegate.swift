@@ -10,4 +10,4 @@ import SwiftUI
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     
-    var menuBarCo
+    var menuBarCoinViewM
