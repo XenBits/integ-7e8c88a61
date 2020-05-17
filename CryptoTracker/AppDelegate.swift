@@ -10,4 +10,5 @@ import SwiftUI
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     
-    var menuBarCoinViewModel: MenuBarCoinVie
+    var menuBarCoinViewModel: MenuBarCoinViewModel!
+    var
