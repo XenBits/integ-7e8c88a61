@@ -11,4 +11,4 @@ import SwiftUI
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     var menuBarCoinViewModel: MenuBarCoinViewModel!
-    var
+    var popoverCo
