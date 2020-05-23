@@ -13,3 +13,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var menuBarCoinViewModel: MenuBarCoinViewModel!
     var popoverCoinViewModel: PopoverCoinViewModel!
     
+    var coin
