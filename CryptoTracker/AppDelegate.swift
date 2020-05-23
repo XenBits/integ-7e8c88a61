@@ -13,4 +13,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var menuBarCoinViewModel: MenuBarCoinViewModel!
     var popoverCoinViewModel: PopoverCoinViewModel!
     
-    var coinCapService = CoinCa
+    var coinCapService = CoinCapPriceSe
