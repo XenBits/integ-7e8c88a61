@@ -15,4 +15,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     var coinCapService = CoinCapPriceService()
     var statusItem: NSStatusItem!
-    let popover = NSPop
+    let popover = NSPopover()
+    
