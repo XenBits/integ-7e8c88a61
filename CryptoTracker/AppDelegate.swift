@@ -17,4 +17,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem!
     let popover = NSPopover()
     
-    private lazy var contentView: NS
+    private lazy var contentView: NSView? = {
+ 
