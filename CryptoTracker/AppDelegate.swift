@@ -18,4 +18,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let popover = NSPopover()
     
     private lazy var contentView: NSView? = {
- 
+        let
