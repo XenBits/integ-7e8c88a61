@@ -18,4 +18,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let popover = NSPopover()
     
     private lazy var contentView: NSView? = {
-        let view = (statusItem.value(forK
+        let view = (statusItem.value(forKey: "win
