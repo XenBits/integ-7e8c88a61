@@ -19,4 +19,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     private lazy var contentView: NSView? = {
         let view = (statusItem.value(forKey: "window") as? NSWindow)?.contentView
-       
+        return view
