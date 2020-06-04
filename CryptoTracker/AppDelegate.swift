@@ -21,4 +21,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let view = (statusItem.value(forKey: "window") as? NSWindow)?.contentView
         return view
     }()
-   
+    
+    func 
