@@ -22,4 +22,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return view
     }()
     
-    func applicati
+    func applicationDidFini
