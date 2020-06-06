@@ -22,4 +22,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return view
     }()
     
-    func applicationDidFinishLaunc
+    func applicationDidFinishLaunching(_ not
