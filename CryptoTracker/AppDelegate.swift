@@ -22,4 +22,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return view
     }()
     
-    func applicationDidFinishLaunching(_ notification: 
+    func applicationDidFinishLaunching(_ notification: Notific
