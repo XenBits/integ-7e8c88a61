@@ -26,4 +26,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupCoinCapService()
         setupMenuBar()
         setupPopover()
-        
+        print("App d
