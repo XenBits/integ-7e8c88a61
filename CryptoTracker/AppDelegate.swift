@@ -26,4 +26,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupCoinCapService()
         setupMenuBar()
         setupPopover()
-        print("App did finis
+        print("App did finish launch"
