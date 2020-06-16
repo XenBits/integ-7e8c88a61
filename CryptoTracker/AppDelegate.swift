@@ -28,4 +28,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupPopover()
         print("App did finish launch")
     }
-   
+    
+  
