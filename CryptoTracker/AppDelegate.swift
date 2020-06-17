@@ -29,4 +29,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("App did finish launch")
     }
     
-    func setupCoinCa
+    func setupCoinCapService(){
+    
