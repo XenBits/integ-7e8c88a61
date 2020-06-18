@@ -30,4 +30,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func setupCoinCapService(){
-        coinC
+        coinCapService.connect
