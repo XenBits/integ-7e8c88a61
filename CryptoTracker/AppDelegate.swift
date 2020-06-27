@@ -34,4 +34,4 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         coinCapService.startMonitorNetworkConnectivity()
     }
 }
-/
+//MARK: - M
