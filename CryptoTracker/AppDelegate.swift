@@ -34,4 +34,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         coinCapService.startMonitorNetworkConnectivity()
     }
 }
-//MARK: - M
+//MARK: - MENU BAR
+
