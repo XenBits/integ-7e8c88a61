@@ -36,4 +36,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 }
 //MARK: - MENU BAR
 
-extension AppDelegate 
+extension AppDelegate {
+    
