@@ -40,4 +40,5 @@ extension AppDelegate {
     
     
     
-    func setupMe
+    func setupMenuBar(){
+  
