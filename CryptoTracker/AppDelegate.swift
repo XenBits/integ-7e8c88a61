@@ -41,4 +41,4 @@ extension AppDelegate {
     
     
     func setupMenuBar(){
-        menuBarCoinViewModel = MenuBarCoinViewModel(service:
+        menuBarCoinViewModel = MenuBarCoinViewModel(service: coinCapSer
