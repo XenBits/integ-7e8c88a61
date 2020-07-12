@@ -42,4 +42,4 @@ extension AppDelegate {
     
     func setupMenuBar(){
         menuBarCoinViewModel = MenuBarCoinViewModel(service: coinCapService)
-        statusItem = NSStatusBar.system.statusItem(wi
+        statusItem = NSStatusBar.system.statusItem(withLength: 6
