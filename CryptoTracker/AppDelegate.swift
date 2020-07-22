@@ -45,4 +45,5 @@ extension AppDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: 64)
         guard let contentView = self.contentView,
               let menuButton = statusItem.button
-        else
+        else {return}
+   
