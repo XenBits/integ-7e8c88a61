@@ -46,4 +46,5 @@ extension AppDelegate {
         guard let contentView = self.contentView,
               let menuButton = statusItem.button
         else {return}
-   
+        
+       
