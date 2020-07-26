@@ -47,4 +47,4 @@ extension AppDelegate {
               let menuButton = statusItem.button
         else {return}
         
-        let hostingView = NSHostingView(roo
+        let hostingView = NSHostingView(rootView: MenuBarC
