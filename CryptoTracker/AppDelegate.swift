@@ -48,3 +48,4 @@ extension AppDelegate {
         else {return}
         
         let hostingView = NSHostingView(rootView: MenuBarCoinView(viewModel: menuBarCoinViewModel))
+        h
