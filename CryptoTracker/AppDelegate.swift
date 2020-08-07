@@ -49,4 +49,4 @@ extension AppDelegate {
         
         let hostingView = NSHostingView(rootView: MenuBarCoinView(viewModel: menuBarCoinViewModel))
         hostingView.translatesAutoresizingMaskIntoConstraints = false
- 
+       
