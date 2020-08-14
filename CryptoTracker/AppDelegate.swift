@@ -51,4 +51,5 @@ extension AppDelegate {
         hostingView.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(hostingView)
         
-        NSLayoutConstraint.activa
+        NSLayoutConstraint.activate([
+   
