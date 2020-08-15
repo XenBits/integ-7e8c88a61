@@ -52,4 +52,4 @@ extension AppDelegate {
         contentView.addSubview(hostingView)
         
         NSLayoutConstraint.activate([
-            hostingView.topAnch
+            hostingView.topAnchor.constrain
