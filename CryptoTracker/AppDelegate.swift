@@ -53,4 +53,4 @@ extension AppDelegate {
         
         NSLayoutConstraint.activate([
             hostingView.topAnchor.constraint(equalTo: contentView.topAnchor),
-            hostingView.right
+            hostingView.rightAnchor.con
