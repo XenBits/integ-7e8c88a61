@@ -56,4 +56,5 @@ extension AppDelegate {
             hostingView.rightAnchor.constraint(equalTo: contentView.rightAnchor),
             hostingView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
             hostingView.leftAnchor.constraint(equalTo: contentView.leftAnchor)
-        ]
+        ])
+    
