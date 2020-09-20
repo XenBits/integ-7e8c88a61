@@ -57,4 +57,4 @@ extension AppDelegate {
             hostingView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
             hostingView.leftAnchor.constraint(equalTo: contentView.leftAnchor)
         ])
-        menuButton.action
+        menuButton.action = #selector(m
