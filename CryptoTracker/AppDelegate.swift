@@ -59,3 +59,5 @@ extension AppDelegate {
         ])
         menuButton.action = #selector(menuButtonClicked)
     }
+    
+   @ob
