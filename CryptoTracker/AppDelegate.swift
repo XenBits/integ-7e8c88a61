@@ -60,4 +60,4 @@ extension AppDelegate {
         menuButton.action = #selector(menuButtonClicked)
     }
     
-   @ob
+   @objc func m
