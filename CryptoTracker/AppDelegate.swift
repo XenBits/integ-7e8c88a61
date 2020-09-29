@@ -60,4 +60,5 @@ extension AppDelegate {
         menuButton.action = #selector(menuButtonClicked)
     }
     
-   @objc func menuButtonClicked
+   @objc func menuButtonClicked() {
+       if
