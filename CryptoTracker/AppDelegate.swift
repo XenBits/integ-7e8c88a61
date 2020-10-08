@@ -62,3 +62,4 @@ extension AppDelegate {
     
    @objc func menuButtonClicked() {
        if popover.isShown {
+      
