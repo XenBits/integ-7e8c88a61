@@ -62,4 +62,4 @@ extension AppDelegate {
     
    @objc func menuButtonClicked() {
        if popover.isShown {
-           popover.pe
+           popover.performClos
