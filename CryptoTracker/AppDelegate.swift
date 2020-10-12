@@ -64,4 +64,5 @@ extension AppDelegate {
        if popover.isShown {
            popover.performClose(nil)
            return
- 
+       }
+  
