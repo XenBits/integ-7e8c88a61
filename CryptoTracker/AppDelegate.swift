@@ -65,4 +65,4 @@ extension AppDelegate {
            popover.performClose(nil)
            return
        }
-       guard let menuButton = statu
+       guard let menuButton = statusItem.button 
