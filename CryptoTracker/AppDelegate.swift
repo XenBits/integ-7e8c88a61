@@ -66,4 +66,4 @@ extension AppDelegate {
            return
        }
        guard let menuButton = statusItem.button else {return}
-       let positioningView = NSView(frame: menuButt
+       let positioningView = NSView(frame: menuButton.bounds)
