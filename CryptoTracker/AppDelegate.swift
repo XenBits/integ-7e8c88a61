@@ -67,4 +67,5 @@ extension AppDelegate {
        }
        guard let menuButton = statusItem.button else {return}
        let positioningView = NSView(frame: menuButton.bounds)
-       positioningView.identifier = NSUserInterfaceItemIdentifier("positioningView
+       positioningView.identifier = NSUserInterfaceItemIdentifier("positioningView")
+       menu
