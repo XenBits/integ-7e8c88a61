@@ -69,4 +69,5 @@ extension AppDelegate {
        let positioningView = NSView(frame: menuButton.bounds)
        positioningView.identifier = NSUserInterfaceItemIdentifier("positioningView")
        menuButton.addSubview(positioningView)
-   
+       
+    
