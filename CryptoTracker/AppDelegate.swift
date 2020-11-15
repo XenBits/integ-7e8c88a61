@@ -70,4 +70,5 @@ extension AppDelegate {
        positioningView.identifier = NSUserInterfaceItemIdentifier("positioningView")
        menuButton.addSubview(positioningView)
        
-       popover.show(relativeTo: menuButton.bounds, of: menuButton, preferredEdge: .max
+       popover.show(relativeTo: menuButton.bounds, of: menuButton, preferredEdge: .maxY)
+       menu
