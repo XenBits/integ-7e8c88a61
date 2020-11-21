@@ -71,4 +71,4 @@ extension AppDelegate {
        menuButton.addSubview(positioningView)
        
        popover.show(relativeTo: menuButton.bounds, of: menuButton, preferredEdge: .maxY)
-       menuButton.bounds = menuButt
+       menuButton.bounds = menuButton.bounds.offs
