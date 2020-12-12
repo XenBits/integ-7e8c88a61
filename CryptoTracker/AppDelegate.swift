@@ -74,4 +74,6 @@ extension AppDelegate {
        menuButton.bounds = menuButton.bounds.offsetBy(dx: 0, dy: menuButton.bounds.height)
        popover.contentViewController?.view.window?.makeKey()
         
- 
+    }
+}
+//MAR
