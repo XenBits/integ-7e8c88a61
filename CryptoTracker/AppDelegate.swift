@@ -78,4 +78,4 @@ extension AppDelegate {
 }
 //MARK: - Popover
 
-extension AppDelegate: NS
+extension AppDelegate: NSPopov
