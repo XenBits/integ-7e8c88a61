@@ -78,4 +78,5 @@ extension AppDelegate {
 }
 //MARK: - Popover
 
-extension AppDelegate: NSPopoverDelegate
+extension AppDelegate: NSPopoverDelegate {
+    func s
