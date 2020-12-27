@@ -80,4 +80,4 @@ extension AppDelegate {
 
 extension AppDelegate: NSPopoverDelegate {
     func setupPopover(){
-        popoverCo
+        popoverCoinViewMo
