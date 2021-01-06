@@ -80,4 +80,5 @@ extension AppDelegate {
 
 extension AppDelegate: NSPopoverDelegate {
     func setupPopover(){
-        popoverCoinViewModel = .init(service: coinCapServi
+        popoverCoinViewModel = .init(service: coinCapService)
+     
