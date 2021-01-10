@@ -81,4 +81,5 @@ extension AppDelegate {
 extension AppDelegate: NSPopoverDelegate {
     func setupPopover(){
         popoverCoinViewModel = .init(service: coinCapService)
-        popover.behavior = .tr
+        popover.behavior = .transient
+ 
