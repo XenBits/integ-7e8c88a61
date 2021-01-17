@@ -83,3 +83,4 @@ extension AppDelegate: NSPopoverDelegate {
         popoverCoinViewModel = .init(service: coinCapService)
         popover.behavior = .transient
         popover.animates = true
+        popover.con
