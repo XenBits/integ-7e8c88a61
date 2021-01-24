@@ -83,4 +83,4 @@ extension AppDelegate: NSPopoverDelegate {
         popoverCoinViewModel = .init(service: coinCapService)
         popover.behavior = .transient
         popover.animates = true
-        popover.contentSize = .init(wid
+        popover.contentSize = .init(width: 240,
