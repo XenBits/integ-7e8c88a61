@@ -84,4 +84,4 @@ extension AppDelegate: NSPopoverDelegate {
         popover.behavior = .transient
         popover.animates = true
         popover.contentSize = .init(width: 240, height: 280)
-        popover.contentVi
+        popover.contentViewCont
