@@ -85,4 +85,4 @@ extension AppDelegate: NSPopoverDelegate {
         popover.animates = true
         popover.contentSize = .init(width: 240, height: 280)
         popover.contentViewController = NSViewController()
-        po
+        popover.contentV
