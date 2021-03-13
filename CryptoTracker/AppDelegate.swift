@@ -86,4 +86,4 @@ extension AppDelegate: NSPopoverDelegate {
         popover.contentSize = .init(width: 240, height: 280)
         popover.contentViewController = NSViewController()
         popover.contentViewController?.view = NSHostingView(
-            rootView: PopoverCoinView(viewModel: popoverCoinViewMod
+            rootView: PopoverCoinView(viewModel: popoverCoinViewModel).frame(ma
