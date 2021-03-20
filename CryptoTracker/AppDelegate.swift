@@ -87,3 +87,4 @@ extension AppDelegate: NSPopoverDelegate {
         popover.contentViewController = NSViewController()
         popover.contentViewController?.view = NSHostingView(
             rootView: PopoverCoinView(viewModel: popoverCoinViewModel).frame(maxWidth: .infinity, maxHeight: .infinity).padding()
+        )
