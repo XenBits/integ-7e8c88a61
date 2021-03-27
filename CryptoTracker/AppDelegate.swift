@@ -88,4 +88,4 @@ extension AppDelegate: NSPopoverDelegate {
         popover.contentViewController?.view = NSHostingView(
             rootView: PopoverCoinView(viewModel: popoverCoinViewModel).frame(maxWidth: .infinity, maxHeight: .infinity).padding()
         )
-        popover.d
+        popover.delegate = self
