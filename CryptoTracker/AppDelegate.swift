@@ -89,3 +89,5 @@ extension AppDelegate: NSPopoverDelegate {
             rootView: PopoverCoinView(viewModel: popoverCoinViewModel).frame(maxWidth: .infinity, maxHeight: .infinity).padding()
         )
         popover.delegate = self
+    }
+    
