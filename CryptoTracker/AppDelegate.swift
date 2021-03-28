@@ -91,4 +91,5 @@ extension AppDelegate: NSPopoverDelegate {
         popover.delegate = self
     }
     
-    func popoverDidClose(_ notification: Notifi
+    func popoverDidClose(_ notification: Notification) {
+     
