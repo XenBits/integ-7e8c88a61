@@ -92,4 +92,4 @@ extension AppDelegate: NSPopoverDelegate {
     }
     
     func popoverDidClose(_ notification: Notification) {
-        let positioningView = statusItem.button?.s
+        let positioningView = statusItem.button?.subviews.fi
