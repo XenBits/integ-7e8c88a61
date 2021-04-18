@@ -93,4 +93,5 @@ extension AppDelegate: NSPopoverDelegate {
     
     func popoverDidClose(_ notification: Notification) {
         let positioningView = statusItem.button?.subviews.first {
-            $0.identifier == NSUserInterfaceItemIdentifier("positioning
+            $0.identifier == NSUserInterfaceItemIdentifier("positioningView")
+   
