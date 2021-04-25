@@ -95,4 +95,5 @@ extension AppDelegate: NSPopoverDelegate {
         let positioningView = statusItem.button?.subviews.first {
             $0.identifier == NSUserInterfaceItemIdentifier("positioningView")
         }
-        positioningView?.removeFromSupervi
+        positioningView?.removeFromSuperview()
+   
