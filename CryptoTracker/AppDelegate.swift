@@ -96,4 +96,5 @@ extension AppDelegate: NSPopoverDelegate {
             $0.identifier == NSUserInterfaceItemIdentifier("positioningView")
         }
         positioningView?.removeFromSuperview()
-   
+    }
+}
