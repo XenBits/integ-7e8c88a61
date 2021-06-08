@@ -1,2 +1,3 @@
 //
-//  Coin.s
+//  Coin.swift
+//  Cr
