@@ -1,3 +1,5 @@
 //
 //  Coin.swift
-//  Cr
+//  CryptoTracker
+//
+/
