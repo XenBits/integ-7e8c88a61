@@ -2,4 +2,4 @@
 //  Coin.swift
 //  CryptoTracker
 //
-//  Created by Davi
+//  Created by David on 2/9/22.
