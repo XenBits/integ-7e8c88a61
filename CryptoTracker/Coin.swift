@@ -7,4 +7,5 @@
 
 import Foundation
 
-struct 
+struct Coin {
+    let nam
