@@ -9,3 +9,4 @@ import Foundation
 
 struct Coin {
     let name: String
+    let valu
