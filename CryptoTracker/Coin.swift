@@ -9,4 +9,4 @@ import Foundation
 
 struct Coin {
     let name: String
-    let valu
+    let value: Double
