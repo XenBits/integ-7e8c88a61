@@ -9,4 +9,4 @@ import Combine
 import Foundation
 import Network
 
-class
+class CoinCap
