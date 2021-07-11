@@ -9,4 +9,6 @@ import Combine
 import Foundation
 import Network
 
-class CoinCapPriceService: NSObject, URLSessionTaskDelegate
+class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
+    
+    p
