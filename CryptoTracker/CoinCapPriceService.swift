@@ -11,4 +11,4 @@ import Network
 
 class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
-    private let session = 
+    private let session = URLSessio
