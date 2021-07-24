@@ -12,3 +12,4 @@ import Network
 class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     private let session = URLSession(configuration: .default)
+    private var
