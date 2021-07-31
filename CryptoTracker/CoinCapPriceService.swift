@@ -13,4 +13,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     private let session = URLSession(configuration: .default)
     private var wsTask: URLSessionWebSocketTask?
-    private 
+    private var pingTryCo
