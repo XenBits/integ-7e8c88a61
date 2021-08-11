@@ -15,4 +15,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     private var wsTask: URLSessionWebSocketTask?
     private var pingTryCount = 0
     
-    let coinDictionarySubjec
+    let coinDictionarySubject = Current
