@@ -16,4 +16,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     private var pingTryCount = 0
     
     let coinDictionarySubject = CurrentValueSubject<[String: Coin], Never>([:])
-    var coinDictionary: [S
+    var coinDictionary: [String: Coin
