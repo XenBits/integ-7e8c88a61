@@ -18,4 +18,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     let coinDictionarySubject = CurrentValueSubject<[String: Coin], Never>([:])
     var coinDictionary: [String: Coin] {coinDictionarySubject.value}
     
-    let connectionStateSubject =
+    let connectionStateSubject = CurrentV
