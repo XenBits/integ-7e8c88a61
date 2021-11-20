@@ -21,3 +21,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     let connectionStateSubject = CurrentValueSubject<Bool, Never>(false)
     var isConnected: Bool {connectionStateSubject.value}
     
+    pri
