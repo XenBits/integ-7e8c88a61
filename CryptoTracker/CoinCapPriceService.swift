@@ -21,4 +21,6 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     let connectionStateSubject = CurrentValueSubject<Bool, Never>(false)
     var isConnected: Bool {connectionStateSubject.value}
     
-    private let monitor = NWPathMonitor
+    private let monitor = NWPathMonitor()
+    
+  
