@@ -23,4 +23,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     private let monitor = NWPathMonitor()
     
-    func conn
+    func connect() {
