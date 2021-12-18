@@ -25,4 +25,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     func connect() {
         let coins = CoinType.allCases
-  
+            .
