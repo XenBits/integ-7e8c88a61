@@ -24,4 +24,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     private let monitor = NWPathMonitor()
     
     func connect() {
-        let coins = CoinType.
+        let coins = CoinType.allCases
+  
