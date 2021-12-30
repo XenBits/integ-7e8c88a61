@@ -26,4 +26,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     func connect() {
         let coins = CoinType.allCases
             .map{$0.rawValue}
-           
+            .joined
