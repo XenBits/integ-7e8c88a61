@@ -27,4 +27,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         let coins = CoinType.allCases
             .map{$0.rawValue}
             .joined(separator: ",")
-  
+        
+   
