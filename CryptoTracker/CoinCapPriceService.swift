@@ -28,4 +28,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             .map{$0.rawValue}
             .joined(separator: ",")
         
-        let url = URL(string: "wss://ws.coincap.io/prices?assets=
+        let url = URL(string: "wss://ws.coincap.io/prices?assets=\(coins)")!
