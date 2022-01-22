@@ -29,4 +29,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             .joined(separator: ",")
         
         let url = URL(string: "wss://ws.coincap.io/prices?assets=\(coins)")!
-        wsTask = session.webSocketTask(w
+        wsTask = session.webSocketTask(with: url)
+  
