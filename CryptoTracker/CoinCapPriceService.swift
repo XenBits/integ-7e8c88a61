@@ -32,4 +32,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         wsTask = session.webSocketTask(with: url)
         wsTask?.delegate = self
         wsTask?.resume()
-        
+        self.receive
