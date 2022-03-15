@@ -33,4 +33,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         wsTask?.delegate = self
         wsTask?.resume()
         self.receiveMessage()
-   
+        sel
