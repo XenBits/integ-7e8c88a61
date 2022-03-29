@@ -35,4 +35,6 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         self.receiveMessage()
         self.schedulePing()
         
+    }
     
+    func
