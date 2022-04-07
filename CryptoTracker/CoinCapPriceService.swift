@@ -37,4 +37,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         
     }
     
-    func startMonitorNetworkConnectivity
+    func startMonitorNetworkConnectivity() {
+ 
