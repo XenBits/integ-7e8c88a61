@@ -39,4 +39,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     func startMonitorNetworkConnectivity() {
         monitor.pathUpdateHandler = {[weak self] path in
-            guard let self =
+            guard let self = self el
