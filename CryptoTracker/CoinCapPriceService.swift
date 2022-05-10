@@ -40,4 +40,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     func startMonitorNetworkConnectivity() {
         monitor.pathUpdateHandler = {[weak self] path in
             guard let self = self else {return }
-            if path.status == .satisfied, self.wsTask == 
+            if path.status == .satisfied, self.wsTask == nil {
+   
