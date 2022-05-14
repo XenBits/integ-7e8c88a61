@@ -43,4 +43,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             if path.status == .satisfied, self.wsTask == nil {
                 self.connect()
             }
-            if path.stat
+            if path.status != .
