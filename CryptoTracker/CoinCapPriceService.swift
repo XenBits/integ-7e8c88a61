@@ -45,4 +45,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             }
             if path.status != .satisfied {
                 self.clearConnection()
-          
+            }
+    
