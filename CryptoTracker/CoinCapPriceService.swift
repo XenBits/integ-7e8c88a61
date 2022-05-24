@@ -47,4 +47,6 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 self.clearConnection()
             }
         }
-        monitor.start(queue: .
+        monitor.start(queue: .main)
+    }
+    
