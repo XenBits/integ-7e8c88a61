@@ -51,4 +51,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     }
     
     private func receiveMessage() {
-       
+        wsTask?.recei
