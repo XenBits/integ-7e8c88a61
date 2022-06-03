@@ -50,4 +50,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         monitor.start(queue: .main)
     }
     
-    private func receiveMessage() 
+    private func receiveMessage() {
+       
