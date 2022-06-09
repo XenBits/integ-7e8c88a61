@@ -52,4 +52,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     private func receiveMessage() {
         wsTask?.receive {[weak self] result in
-        
+            
+       
