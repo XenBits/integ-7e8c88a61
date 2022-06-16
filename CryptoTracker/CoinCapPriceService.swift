@@ -56,4 +56,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             guard let self = self else {return}
             
             switch result {
-            case .success
+            case .success(let messag
