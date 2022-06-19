@@ -57,4 +57,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             
             switch result {
             case .success(let message):
-                swi
+                switch message {
