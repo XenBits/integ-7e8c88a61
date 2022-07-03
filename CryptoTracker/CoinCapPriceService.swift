@@ -59,4 +59,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             case .success(let message):
                 switch message {
                 case .string(let text):
-                    print("Received tex
+                    print("Received text message
