@@ -60,4 +60,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 switch message {
                 case .string(let text):
                     print("Received text message: \(text)")
-                    if let data = text.data(using: .u
+                    if let data = text.data(using: .utf8){
+      
