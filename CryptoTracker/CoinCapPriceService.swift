@@ -62,3 +62,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                     print("Received text message: \(text)")
                     if let data = text.data(using: .utf8){
                         self.onReceiveData(data)
+               
