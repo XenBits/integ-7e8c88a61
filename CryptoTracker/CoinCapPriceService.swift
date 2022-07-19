@@ -63,4 +63,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                     if let data = text.data(using: .utf8){
                         self.onReceiveData(data)
                     }
-               
+                    break
+ 
