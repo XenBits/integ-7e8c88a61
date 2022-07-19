@@ -64,4 +64,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                         self.onReceiveData(data)
                     }
                     break
- 
+      
