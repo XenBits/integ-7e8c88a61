@@ -65,4 +65,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                     }
                     break
                 case .data(let data):
-                    print("Received binary message: \(dat
+                    print("Received binary message: \(data)")
+  
