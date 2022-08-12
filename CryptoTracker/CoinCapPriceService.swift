@@ -67,4 +67,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 case .data(let data):
                     print("Received binary message: \(data)")
                     self.onReceiveData(data)
-         
+                  
