@@ -68,4 +68,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                     print("Received binary message: \(data)")
                     self.onReceiveData(data)
                     break
-      
+                defau
