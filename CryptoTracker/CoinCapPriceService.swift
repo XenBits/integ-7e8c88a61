@@ -70,4 +70,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                     break
                 default: break
                 }
-                self
+                self.receiveMessage()
+ 
