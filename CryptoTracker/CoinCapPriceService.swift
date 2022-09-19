@@ -71,4 +71,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 default: break
                 }
                 self.receiveMessage()
-            case .failure(l
+            case .failure(let erro
