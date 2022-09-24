@@ -72,4 +72,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 }
                 self.receiveMessage()
             case .failure(let error):
-                pr
+                print("Fail
