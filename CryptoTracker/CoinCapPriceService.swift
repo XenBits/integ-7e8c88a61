@@ -73,3 +73,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 self.receiveMessage()
             case .failure(let error):
                 print("Failed to receive message: \(error.localizedDescription)")
+      
