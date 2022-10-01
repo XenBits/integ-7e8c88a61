@@ -75,4 +75,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 print("Failed to receive message: \(error.localizedDescription)")
                 
             }
-     
+        }
