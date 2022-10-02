@@ -78,3 +78,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         }
     }
     
+    priva
