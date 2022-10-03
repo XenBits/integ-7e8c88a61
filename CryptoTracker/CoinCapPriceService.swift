@@ -78,4 +78,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         }
     }
     
-    private func onRecei
+    private func onReceiveData(_ data: 
