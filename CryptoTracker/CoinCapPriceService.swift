@@ -79,4 +79,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     }
     
     private func onReceiveData(_ data: Data) {
-        guar
+        guard let d
