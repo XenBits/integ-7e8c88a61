@@ -79,4 +79,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     }
     
     private func onReceiveData(_ data: Data) {
-        guard let dictionary = try? J
+        guard let dictionary = try? JSONSerial
