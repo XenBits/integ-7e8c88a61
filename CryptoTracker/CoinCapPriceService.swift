@@ -79,4 +79,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     }
     
     private func onReceiveData(_ data: Data) {
-        guard let dictionary = try? JSONSerialization.jsonObject(with: data) as? [String: String]
+        guard let dictionary = try? JSONSerialization.jsonObject(with: data) as? [String: String] else {
+   
