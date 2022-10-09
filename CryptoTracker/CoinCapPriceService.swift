@@ -82,4 +82,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         guard let dictionary = try? JSONSerialization.jsonObject(with: data) as? [String: String] else {
             return
         }
-        var 
+        var newDiction
