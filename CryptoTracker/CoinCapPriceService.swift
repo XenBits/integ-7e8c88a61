@@ -83,4 +83,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             return
         }
         var newDictionary = [String: Coin]()
-        dictionary.forEach {(key, value) 
+        dictionary.forEach {(key, value) in
+        
