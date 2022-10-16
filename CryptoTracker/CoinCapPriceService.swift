@@ -86,4 +86,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         dictionary.forEach {(key, value) in
             let value = Double(value) ?? 0
             newDictionary[key] = Coin(name: key.capitalized, value: value)
+        }
         
