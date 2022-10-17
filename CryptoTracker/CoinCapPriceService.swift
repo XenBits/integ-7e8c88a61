@@ -88,4 +88,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             newDictionary[key] = Coin(name: key.capitalized, value: value)
         }
         
-        let mergedDictionary
+        let mergedDictionary = coinDictio
