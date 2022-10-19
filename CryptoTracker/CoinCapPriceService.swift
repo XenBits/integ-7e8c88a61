@@ -89,4 +89,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         }
         
         let mergedDictionary = coinDictionary.merging(newDictionary) {$1}
-        coinDiction
+        coinDictionarySubj
