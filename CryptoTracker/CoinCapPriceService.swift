@@ -92,4 +92,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         coinDictionarySubject.send(mergedDictionary)
     }
     
-    private func 
+    private func schedulePing() 
