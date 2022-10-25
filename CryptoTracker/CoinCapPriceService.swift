@@ -94,4 +94,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     private func schedulePing() {
         let identifier = self.wsTask?.taskIdentifier ?? -1
-        DispatchQueue.main.asyncAfter(
+        DispatchQueue.main.asyncAfter(deadline: .n
