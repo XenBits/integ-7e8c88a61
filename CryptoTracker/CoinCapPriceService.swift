@@ -96,3 +96,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         let identifier = self.wsTask?.taskIdentifier ?? -1
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {[weak self ] in
             guard let self = self, let task = self.wsTask, task.taskIdentifier == identifier
+            els
