@@ -98,4 +98,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             guard let self = self, let task = self.wsTask, task.taskIdentifier == identifier
             else {
                 return
-            
+            }
+   
