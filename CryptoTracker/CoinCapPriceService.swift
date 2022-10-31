@@ -99,4 +99,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             else {
                 return
             }
-            if task.state == .
+            if task.state == .running, self
