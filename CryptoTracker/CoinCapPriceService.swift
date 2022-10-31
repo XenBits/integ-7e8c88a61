@@ -99,4 +99,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             else {
                 return
             }
-   
+            if
