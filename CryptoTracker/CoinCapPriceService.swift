@@ -99,4 +99,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             else {
                 return
             }
-            if task.state == .running, self.pingTryCount 
+            if task.state == .running, self.pingTryCount < 2 {
+       
