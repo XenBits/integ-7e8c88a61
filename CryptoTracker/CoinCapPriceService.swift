@@ -102,4 +102,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             if task.state == .running, self.pingTryCount < 2 {
                 self.pingTryCount += 1
                 print("Ping: Send ping \(self.pingTryCount)")
-                task.sendPing {[weak self] error i
+                task.sendPing {[weak self] error in
+      
