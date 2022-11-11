@@ -105,4 +105,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 task.sendPing {[weak self] error in
                     if let error = error {
                         print("Ping failed: \(error.localizedDescription)")
-                    } else
+                    } else if self?.
