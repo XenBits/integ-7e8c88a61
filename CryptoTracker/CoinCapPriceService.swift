@@ -107,4 +107,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                         print("Ping failed: \(error.localizedDescription)")
                     } else if self?.wsTask?.taskIdentifier == identifier {
                         self?.pingTryCount = 0
-                   
+                    }
+         
