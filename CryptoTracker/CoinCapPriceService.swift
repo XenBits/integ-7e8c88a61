@@ -108,4 +108,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                     } else if self?.wsTask?.taskIdentifier == identifier {
                         self?.pingTryCount = 0
                     }
-         
+                }
