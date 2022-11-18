@@ -110,4 +110,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                     }
                 }
                 self.schedulePing()
-  
+            } el
