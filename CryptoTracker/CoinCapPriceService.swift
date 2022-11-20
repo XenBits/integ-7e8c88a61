@@ -111,4 +111,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
                 }
                 self.schedulePing()
             } else {
-                s
+                self.reconnect()
