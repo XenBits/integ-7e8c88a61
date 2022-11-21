@@ -113,3 +113,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
             } else {
                 self.reconnect()
             }
+        }
