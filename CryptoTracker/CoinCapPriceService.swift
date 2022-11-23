@@ -116,4 +116,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         }
     }
     
-    private func reconne
+    private func reconnect() {
+     
