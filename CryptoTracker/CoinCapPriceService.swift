@@ -121,3 +121,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         self.connect()
     }
     
+    func
