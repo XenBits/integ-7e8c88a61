@@ -118,4 +118,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     
     private func reconnect() {
         self.clearConnection()
-      
+        self.connect()
+ 
