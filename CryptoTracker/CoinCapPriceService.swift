@@ -121,4 +121,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         self.connect()
     }
     
-    func clearConnection() 
+    func clearConnection() {
+        s
