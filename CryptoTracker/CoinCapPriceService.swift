@@ -124,4 +124,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     func clearConnection() {
         self.wsTask?.cancel()
         self.wsTask = nil
-        sel
+        self.pingTryCount
