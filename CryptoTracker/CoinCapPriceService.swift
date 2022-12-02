@@ -128,4 +128,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
         self.connectionStateSubject.send(false)
     }
     
-    dein
+    deinit {
+       
