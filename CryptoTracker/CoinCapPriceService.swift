@@ -129,4 +129,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     }
     
     deinit {
-        coinDictionarySubject.send(comple
+        coinDictionarySubject.send(completion: .finis
