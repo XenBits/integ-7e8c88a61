@@ -134,4 +134,5 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
     }
 }
 
-extension CoinCapPriceService: URLSessionWebSocketDel
+extension CoinCapPriceService: URLSessionWebSocketDelegate {
+ 
