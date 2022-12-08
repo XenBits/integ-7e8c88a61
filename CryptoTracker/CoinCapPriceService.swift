@@ -135,4 +135,4 @@ class CoinCapPriceService: NSObject, URLSessionTaskDelegate {
 }
 
 extension CoinCapPriceService: URLSessionWebSocketDelegate {
-    func u
+    func urlSessio
