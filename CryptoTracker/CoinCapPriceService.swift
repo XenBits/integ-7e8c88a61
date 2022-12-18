@@ -139,4 +139,4 @@ extension CoinCapPriceService: URLSessionWebSocketDelegate {
         self.connectionStateSubject.send(true)
     }
     
-    func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didCloseWith closeCode: URLSession
+    func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didCloseWith closeCode: URLSessionWebSock
