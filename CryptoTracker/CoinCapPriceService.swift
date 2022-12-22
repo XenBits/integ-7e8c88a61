@@ -141,3 +141,5 @@ extension CoinCapPriceService: URLSessionWebSocketDelegate {
     
     func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didCloseWith closeCode: URLSessionWebSocketTask.CloseCode, reason: Data?) {
         self.connectionStateSubject.send(false)
+    }
+}
