@@ -4,4 +4,4 @@
 <dict>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
-	<key>com.apple.security.files.use
+	<key>com.apple.security.files.user-selected
