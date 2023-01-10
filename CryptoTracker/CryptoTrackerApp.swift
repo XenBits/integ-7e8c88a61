@@ -8,4 +8,4 @@
 import SwiftUI
 
 @main
-struct CryptoTra
+struct CryptoTrackerApp: App {
