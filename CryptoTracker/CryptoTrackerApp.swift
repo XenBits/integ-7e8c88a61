@@ -6,3 +6,6 @@
 //
 
 import SwiftUI
+
+@main
+struc
