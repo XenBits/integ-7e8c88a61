@@ -10,4 +10,4 @@ import SwiftUI
 @main
 struct CryptoTrackerApp: App {
     
-    @NSApplicationDelegateAdaptor(AppDelegate.self) private var
+    @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegat
