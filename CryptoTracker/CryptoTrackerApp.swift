@@ -14,4 +14,4 @@ struct CryptoTrackerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            EmptyVie
+            EmptyView().fram
