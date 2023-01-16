@@ -16,3 +16,5 @@ struct CryptoTrackerApp: App {
         WindowGroup {
             EmptyView().frame(width: 00, height: 0)
         }
+    }
+}
