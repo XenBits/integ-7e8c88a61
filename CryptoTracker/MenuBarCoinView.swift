@@ -16,3 +16,14 @@ struct MenuBarCoinView: View {
         HStack(spacing: 4){
             Image(systemName: "circle.fill")
                 .foregroundColor(viewModel.color)
+            
+            VStack(alignment: .leading, spacing: -2){
+                Text(viewModel.name)
+                Text(viewModel.value)
+            }
+            .font(.caption)
+        }
+        .onChange(of: viewModel.selecterdCoinType){ _ in
+            viewModel.updateView()
+        }
+        .onAppear{
