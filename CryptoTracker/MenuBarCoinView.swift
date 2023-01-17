@@ -9,3 +9,10 @@
 import SwiftUI
 
 struct MenuBarCoinView: View {
+    
+    @ObservedObject var viewModel: MenuBarCoinViewModel
+    
+    var body: some View {
+        HStack(spacing: 4){
+            Image(systemName: "circle.fill")
+                .foregroundColor(viewModel.color)
