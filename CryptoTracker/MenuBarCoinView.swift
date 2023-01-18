@@ -27,3 +27,13 @@ struct MenuBarCoinView: View {
             viewModel.updateView()
         }
         .onAppear{
+            viewModel.subscribeToService()
+        }
+    }
+}
+
+struct MenuBarCoinView_Previews: PreviewProvider {
+    static var previews: some View {
+        MenuBarCoinView(viewModel: .init(name: "Bitocoin", value: "40,000", color: .green))
+    }
+}
