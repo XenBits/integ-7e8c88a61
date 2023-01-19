@@ -20,3 +20,9 @@ class MenuBarCoinViewModel: ObservableObject {
     private var subscrition = Set<AnyCancellable>()
     
     private let currencyFormatter: NumberFormatter = {
+       let  formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.maximumFractionDigits = 2
+        formatter.currencyCode = "USD"
+        formatter.currencySymbol = "$"
+        return formatter
