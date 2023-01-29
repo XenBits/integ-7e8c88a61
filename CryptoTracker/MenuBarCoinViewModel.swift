@@ -26,3 +26,10 @@ class MenuBarCoinViewModel: ObservableObject {
         formatter.currencyCode = "USD"
         formatter.currencySymbol = "$"
         return formatter
+    }()
+    
+    init(name: String = "", value: String = "", color: Color = .green, service: CoinCapPriceService = .init()){
+        self.name = name
+        self.value = value
+        self.color = color
+        self.service = service
