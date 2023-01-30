@@ -57,3 +57,9 @@ class MenuBarCoinViewModel: ObservableObject {
             }
         }else {
             self.value = "Offline"
+        }
+        self.color = self.service.isConnected ? .green : .red
+    }
+    
+    
+}
