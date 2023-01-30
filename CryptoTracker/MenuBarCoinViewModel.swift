@@ -33,3 +33,11 @@ class MenuBarCoinViewModel: ObservableObject {
         self.value = value
         self.color = color
         self.service = service
+        
+    }
+    
+    func subscribeToService() {
+        service.coinDictionarySubject
+            .combineLatest(service.connectionStateSubject)
+            .receive(on: DispatchQueue.main)
+            .sink{ [weak self]_ in self?.updateView()
