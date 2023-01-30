@@ -41,3 +41,19 @@ class MenuBarCoinViewModel: ObservableObject {
             .combineLatest(service.connectionStateSubject)
             .receive(on: DispatchQueue.main)
             .sink{ [weak self]_ in self?.updateView()
+            }
+            .store(in: &subscrition)
+    }
+    
+    func updateView() {
+        let coin = self.service.coinDictionary[selecterdCoinType.rawValue]
+        self.name = coin?.name ?? selecterdCoinType.desccription
+        
+        if self.service.isConnected {
+            if let coin = coin, let value = self.currencyFormatter.string(from: NSNumber(value: coin.value)){
+                self.value = value
+            } else {
+                self.value = "Updating..."
+            }
+        }else {
+            self.value = "Offline"
