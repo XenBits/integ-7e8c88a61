@@ -30,3 +30,11 @@ struct PopoverCoinView: View {
                         Link(destination: type.url){
                             Image(systemName: "safari")
                         }
+                    }
+                    .tag(type)
+                    
+                }
+            }
+            .pickerStyle(RadioGroupPickerStyle())
+            .labelsHidden()
+            
