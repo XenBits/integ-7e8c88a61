@@ -38,3 +38,13 @@ struct PopoverCoinView: View {
             .pickerStyle(RadioGroupPickerStyle())
             .labelsHidden()
             
+            Divider()
+            
+            Button("Quit"){
+                NSApp.terminate(self)
+            }
+        }
+        .onChange(of: viewModel.selecterdCoinType){ _ in
+            viewModel.updateView()
+        }
+        .onAppear{
