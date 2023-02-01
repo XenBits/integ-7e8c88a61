@@ -48,3 +48,13 @@ struct PopoverCoinView: View {
             viewModel.updateView()
         }
         .onAppear{
+            viewModel.subscribeToService()
+        }
+    }
+}
+
+struct PopoverCoinView_Previews: PreviewProvider {
+    static var previews: some View {
+        PopoverCoinView(viewModel: .init(title: "Bitcoin", subtitle: "40,000"))
+    }
+}
