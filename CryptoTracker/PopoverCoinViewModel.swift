@@ -14,3 +14,20 @@ class PopoverCoinViewModel: ObservableObject {
     @Published private(set) var title: String
     @Published private(set) var subtitle: String
     @Published private(set) var coinType: [CoinType]
+    @AppStorage("SelectedCoinType") var selecterdCoinType = CoinType.bitcoin
+    
+    private let service: CoinCapPriceService
+    private var subscrition = Set<AnyCancellable>()
+    
+    private let currencyFormatter: NumberFormatter = {
+       let  formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.maximumFractionDigits = 2
+        formatter.currencyCode = "USD"
+        return formatter
+    }()
+    
+    init(title: String = "", subtitle: String = "", coinTypes: [CoinType] = CoinType.allCases, service: CoinCapPriceService = .init()){
+        self.title = title
+        self.subtitle = subtitle
+        self.coinType = coinTypes
