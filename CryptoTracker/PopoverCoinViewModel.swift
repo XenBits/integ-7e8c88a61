@@ -31,3 +31,15 @@ class PopoverCoinViewModel: ObservableObject {
         self.title = title
         self.subtitle = subtitle
         self.coinType = coinTypes
+        self.service = service
+        
+    }
+    
+    func subscribeToService(){
+        service.coinDictionarySubject
+            .receive(on: DispatchQueue.main)
+            .sink{[weak self] _ in self?.updateView()}
+            .store(in: &subscrition)
+    }
+    
+    func updateView(){
