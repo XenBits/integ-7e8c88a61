@@ -43,3 +43,11 @@ class PopoverCoinViewModel: ObservableObject {
     }
     
     func updateView(){
+        let coin = self.service.coinDictionary[selecterdCoinType.rawValue]
+        self.title = coin?.name ?? selecterdCoinType.desccription
+        
+        if let coin = coin, let value = self.currencyFormatter.string(from: NSNumber(value: coin.value)){
+            self.subtitle = value
+        } else {
+            self.subtitle = "Updating..."
+        }
