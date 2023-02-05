@@ -4,3 +4,8 @@
 	archiveVersion = 1;
 	classes = {
 	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6347E12B27B37F2B0078BE02 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347E12A27B37F2B0078BE02 /* CryptoTrackerApp.swift */; };
