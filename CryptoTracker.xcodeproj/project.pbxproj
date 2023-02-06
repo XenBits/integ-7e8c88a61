@@ -45,3 +45,13 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6347E11E27B37F2B0078BE02 = {
+			isa = PBXGroup;
+			children = (
+				6347E12927B37F2B0078BE02 /* CryptoTracker */,
+				6347E12827B37F2B0078BE02 /* Products */,
+			);
