@@ -55,3 +55,14 @@
 				6347E12927B37F2B0078BE02 /* CryptoTracker */,
 				6347E12827B37F2B0078BE02 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		6347E12827B37F2B0078BE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6347E12727B37F2B0078BE02 /* CryptoTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6347E12927B37F2B0078BE02 /* CryptoTracker */ = {
