@@ -80,3 +80,12 @@
 				6347E14A27B4A53C0078BE02 /* MenuBarCoinViewModel.swift */,
 				6347E14C27B4ADBC0078BE02 /* PopoverCoinViewModel.swift */,
 				6347E13E27B382470078BE02 /* MenuBarCoinView.swift */,
+				6347E14027B386180078BE02 /* PopoverCoinView.swift */,
+			);
+			path = CryptoTracker;
+			sourceTree = "<group>";
+		};
+		6347E13027B37F2D0078BE02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6347E13127B37F2D0078BE02 /* Preview Assets.xcassets */,
