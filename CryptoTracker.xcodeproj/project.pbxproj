@@ -103,3 +103,14 @@
 				6347E12327B37F2B0078BE02 /* Sources */,
 				6347E12427B37F2B0078BE02 /* Frameworks */,
 				6347E12527B37F2B0078BE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoTracker;
+			productName = CryptoTracker;
+			productReference = 6347E12727B37F2B0078BE02 /* CryptoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
