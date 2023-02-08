@@ -89,3 +89,17 @@
 			isa = PBXGroup;
 			children = (
 				6347E13127B37F2D0078BE02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6347E12627B37F2B0078BE02 /* CryptoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6347E13627B37F2D0078BE02 /* Build configuration list for PBXNativeTarget "CryptoTracker" */;
+			buildPhases = (
+				6347E12327B37F2B0078BE02 /* Sources */,
+				6347E12427B37F2B0078BE02 /* Frameworks */,
+				6347E12527B37F2B0078BE02 /* Resources */,
