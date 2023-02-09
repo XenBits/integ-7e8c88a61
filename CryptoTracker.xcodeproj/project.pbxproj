@@ -114,3 +114,16 @@
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6347E11F27B37F2B0078BE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6347E12627B37F2B0078BE02 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
