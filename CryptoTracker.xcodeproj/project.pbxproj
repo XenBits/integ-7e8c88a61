@@ -127,3 +127,15 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
+			};
+			buildConfigurationList = 6347E12227B37F2B0078BE02 /* Build configuration list for PBXProject "CryptoTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6347E11E27B37F2B0078BE02;
+			productRefGroup = 6347E12827B37F2B0078BE02 /* Products */;
+			projectDirPath = "";
