@@ -150,3 +150,13 @@
 		6347E12527B37F2B0078BE02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+				6347E13227B37F2D0078BE02 /* Preview Assets.xcassets in Resources */,
+				6347E12F27B37F2D0078BE02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6347E12327B37F2B0078BE02 /* Sources */ = {
