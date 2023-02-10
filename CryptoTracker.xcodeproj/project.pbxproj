@@ -160,3 +160,17 @@
 
 /* Begin PBXSourcesBuildPhase section */
 		6347E12327B37F2B0078BE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347E14527B3ED650078BE02 /* Coin.swift in Sources */,
+				6347E14727B3ED850078BE02 /* CoinCapPriceService.swift in Sources */,
+				6347E14327B3ECC00078BE02 /* CoinType.swift in Sources */,
+				6347E14D27B4ADBD0078BE02 /* PopoverCoinViewModel.swift in Sources */,
+				6347E13F27B382470078BE02 /* MenuBarCoinView.swift in Sources */,
+				6347E14B27B4A53D0078BE02 /* MenuBarCoinViewModel.swift in Sources */,
+				6347E13B27B3805E0078BE02 /* AppDelegate.swift in Sources */,
+				6347E12B27B37F2B0078BE02 /* CryptoTrackerApp.swift in Sources */,
+				6347E14127B386180078BE02 /* PopoverCoinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
