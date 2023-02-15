@@ -292,3 +292,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
+		};
+		6347E13727B37F2D0078BE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
