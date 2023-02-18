@@ -350,3 +350,13 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6347E12227B37F2B0078BE02 /* Build configuration list for PBXProject "CryptoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6347E13427B37F2D0078BE02 /* Debug */,
+				6347E13527B37F2D0078BE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
