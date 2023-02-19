@@ -360,3 +360,17 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6347E13627B37F2D0078BE02 /* Build configuration list for PBXNativeTarget "CryptoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6347E13727B37F2D0078BE02 /* Debug */,
+				6347E13827B37F2D0078BE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6347E11F27B37F2B0078BE02 /* Project object */;
+}
